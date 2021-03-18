@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  firestoreusers:
+    image: firestoreuserdemo:latest
+    build:
+      context: .
+    ports:
+      - "5000:80"
+    networks:
+      - kevin-network
+    environment:
+      GOOGLE_APPLICATION_CREDENTIALS: "125-viagens-c419186be9db.json"  
+
+networks: 
+    kevin-network:
+        driver: bridge
