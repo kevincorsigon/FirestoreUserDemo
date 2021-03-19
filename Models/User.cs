@@ -27,7 +27,5 @@ namespace FirestoreUserDemo.Models
         [FirestoreProperty("adress")]
         public Adress Adress { get; set; }
 
-        public int Version { get; set; }
-
     }
 }

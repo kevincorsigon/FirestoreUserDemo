@@ -10,7 +10,7 @@ services:
     networks:
       - kevin-network
     environment:
-      GOOGLE_APPLICATION_CREDENTIALS: "125-viagens-c419186be9db.json"  
+      GOOGLE_APPLICATION_CREDENTIALS: "viagens-307823-0508a76800da.json"  
 
 networks: 
     kevin-network:

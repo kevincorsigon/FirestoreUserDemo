@@ -12,7 +12,7 @@ namespace FirestoreUserDemo.Models
         public int Number { get; set; }
 
         [FirestoreProperty("city")]
-        public string city { get; set; }
+        public string City { get; set; }
 
         [FirestoreProperty("state")]
         public string State { get; set; }
